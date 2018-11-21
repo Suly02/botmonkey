@@ -7,7 +7,7 @@ var prefixe=("/");
 
     bot.on("ready", () => {
         bot.user.setPresence({game: { name: 'se triturer la bistouquette', type: 0 }});
-        bot.user.setUsername("Führer");
+        bot.user.setUsername("Jean-Didier");
         console.log("Bot Ready");
     });
     
