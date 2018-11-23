@@ -17,7 +17,7 @@ var prefixe=("/");
     bot.on('message', message=> {
         if (message.content=== "ping"){ 
             //message.reply("pong"); répond en mentionnant la personne avec un @
-            message.channel.send("pong");
+            message.channel.send("Tu crois vraiment que je vais répondre \"pong\" petit enculé ?");
         }
         if (message.content === prefixe+"ping"){
            message.channel.send('Pong! ' + Math.round(bot.ping)+ 'ms!')
