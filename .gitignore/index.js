@@ -11,7 +11,7 @@ const bot = new Discord.Client();
         console.log('Bot has started');
     });
     
-    bot.login(config.token);    
+    bot.login(process.env.TOKEN);    
 
 
     bot.on("message", async message=> {
